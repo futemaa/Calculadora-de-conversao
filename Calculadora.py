@@ -72,16 +72,3 @@ entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
 valorConvertido = GigabytesParaMegabytes(entradaDoTecladoValorASerConvertido)
 print(valorConvertido)
 
-def converterStringParaFloat(value):
-    print('Valor convertido de str para float')
-    return float(value)
-
-def GigabyteParaTerabyte(valorASerConvertido):
-    print('Valor convertido de Gigabyte Para Terabyte')
-    GigabytesCalculado = valorASerConvertido / 1024
-    return GigabytesCalculado
-def GigabytesParaMegabytes(valorASerConvertido):
-    print('Valor convertido de Gigabyte para Megabyte')
-    MegabytesCalculado = valorASerConvertido * 1024
-    return MegabytesCalculado
-
