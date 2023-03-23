@@ -12,16 +12,13 @@ def byteParaBit(valorASerConvertido):
     bitsCalculado = valorASerConvertido * 8
     return bitsCalculado
 
-print('Insira o valor a ser convertido de Byte para Bit')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = byteParaBit(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
+
 
 def converterStringParaFloat(value):
     print('Valor convertido de str para float')
     return float(value)
 
-def ByteParaKbyte(valorASerConvertido):
+def ByteParaKilobyte(valorASerConvertido):
     print('Valor convertido de Byte para Kbyte')
     KilobytesCalculado = valorASerConvertido / 1024
     return KilobytesCalculado
@@ -31,16 +28,13 @@ def KilobytesParaBytes(valorASerConvertido):
     BytesCalculado = valorASerConvertido * 1024
     return BytesCalculado
 
-print('Insira o valor a ser convertido de Kilobytes Para Bytes')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = KilobytesParaBytes(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
+
 
 def converterStringParaFloat(value):
     print('Valor convertido de str para float')
     return float(value)
 
-def Me(valorASerConvertido):
+def Kilobytesparamegabytes(valorASerConvertido):
     print('Valor convertido de Megabyte para Kilobyte')
     KilobytesCalculado = valorASerConvertido / 1024
     return KilobytesCalculado
@@ -49,10 +43,7 @@ def megabytesparakilobytes(valorASerConvertido):
     KilobytesCalculado = valorASerConvertido * 1024
     return KilobytesCalculado
 
-print('Insira o valor a ser convertido de Megabytes Para Kilobytes')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido= megabytesparakilobytes(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
+
 
 def converterStringParaFloat(value):
     print('Valor convertido de str para float')
@@ -67,10 +58,7 @@ def GigabytesParaMegabytes(valorASerConvertido):
     MegabytesCalculado = valorASerConvertido * 1024
     return MegabytesCalculado
 
-print('Insira o valor a ser convertido de Gigabyte Para Megabyte')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = GigabytesParaMegabytes (entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
+
 
 def converterStringParaFloat(value):
     print('Valor convertido de str para float')
@@ -86,10 +74,7 @@ def terabytesParagigabytes(valorASerConvertido):
     GigabytesCalculado = valorASerConvertido * 1024
     return GigabytesCalculado
 
-print('Insira o valor a ser convertido de terabyte Para gigabyte')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = terabytesParagigabytes (entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
+
 
 def converterStringParaFloat(value):
     print('Valor convertido de str para float')
@@ -105,8 +90,5 @@ def petabytesparaterabytes(valorASerConvertido):
     terabytesCalculado = valorASerConvertido * 1024
     return terabytesCalculado
 
-print('Insira o valor a ser convertido de petabytes para terabytes')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = petabytesparaterabytes (entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
+
 
