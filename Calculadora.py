@@ -44,14 +44,14 @@ def Me(valorASerConvertido):
     print('Valor convertido de Megabyte para Kilobyte')
     KilobytesCalculado = valorASerConvertido / 1024
     return KilobytesCalculado
-def megabytesparaKilobytes(valorASerConvertido):
+def megabytesparakilobytes(valorASerConvertido):
     print('Valor convertido de Megabytes para Kilobytes')
     KilobytesCalculado = valorASerConvertido * 1024
     return KilobytesCalculado
 
 print('Insira o valor a ser convertido de Megabytes Para Kilobytes')
 entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido= megabytesparaKilobytes(entradaDoTecladoValorASerConvertido)
+valorConvertido= megabytesparakilobytes(entradaDoTecladoValorASerConvertido)
 print(valorConvertido)
 
 def converterStringParaFloat(value):
@@ -88,5 +88,25 @@ def terabytesParagigabytes(valorASerConvertido):
 
 print('Insira o valor a ser convertido de terabyte Para gigabyte')
 entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = terabytesparagigabytes (entradaDoTecladoValorASerConvertido)
+valorConvertido = terabytesParagigabytes (entradaDoTecladoValorASerConvertido)
 print(valorConvertido)
+
+def converterStringParaFloat(value):
+    print('Valor convertido de str para float')
+    return float(value)
+
+def terabyteparapetabyte(valorASerConvertido):
+    print('Valor convertido de terabyte Para petabyte')
+    petabytesCalculado = valorASerConvertido / 1024
+    return petabytesCalculado
+
+def petabytesparaterabytes(valorASerConvertido):
+    print('Valor convertido de petabytes para terabytes')
+    terabytesCalculado = valorASerConvertido * 1024
+    return terabytesCalculado
+
+print('Insira o valor a ser convertido de petabytes para terabytes')
+entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
+valorConvertido = petabytesparaterabytes (entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
